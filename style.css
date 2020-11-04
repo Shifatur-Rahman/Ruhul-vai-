@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+.main-header{
+    background-color: darkolivegreen;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.header-one{
+   background: red;
+   padding: 10px;
+  
+}
+.header-one::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.left-header-one{
+    float: left;
+}
+.left-header-one ul{
+    list-style: none;
+}
+.left-header-one ul li{
+display: inline-block;
+}
+
+.left-header-one ul li a{
+text-decoration: none;
+color: #ffffff;
+padding: 5px 10px;
+}
+
+.right-header-one{
+float: right;
+}
+.right-header-one ul{
+    list-style: none;
+}
+
+.right-header-one ul li{
+    display: inline-block;
+    
+}
+
+.right-header-one ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+
+.header-two{
+    background-color: darkorchid;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.logo{
+float: left;
+margin-right: 50px;
+}
+
+.logo img{
+    width: 100px;
+    height: 40px;
+}
+
+.search{
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+/* .search input[type="text"]{
+    border-radius: 10px;
+} */
+.tbox{
+    width: 600px;
+    padding: 10px;
+}
+.btn{
+    width: 50px;
+    border: 1px solid red;
+    background-color: #000000;
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+.btn i{
+    color: #ffffff;
+}
+.card{
+    float: left;
+}
+.card ul{
+list-style: none;
+}
+.card ul li{
+display: inline-block;
+font-size: 30px;
+margin-left: 20px;
+cursor: pointer;
+}
+
+.header-three{
+    background-color: brown;
+}
+
+.header-three ul{
+list-style-type: none;
+overflow: hidden;
+
+}
+
+.header-three ul li{
+float: left;
+}
+
+
+.header-three ul li a{
+text-decoration: none;
+padding: 10px 20px;
+display: inline-block;
+}
+.header-three ul li a:hover{
+background-color: black;
+color: #ffffff;
+}
+.dropdown .dropdown-content{
+    background-color: #f9f9f9;
+display: none;
+position: absolute;
+min-width: 200px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3) ;
+border-radius: 5px;
+}
+.dropdown .dropdown-content a{
+    display: block;
+    color: #000;
+    border-radius: 5px;
+}
+.dropdown .dropdown-content a:hover{
+    background-color: green;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.mid-content{
+    background-color: violet;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #f9f9f9;
+     padding: 20px;
+     overflow: hidden;
+} 
+
+.footer-container{
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 1200px;
+    margin: auto;
+}
+/* .connect{
+float: left;
+}
+
+.shopping{
+float: left;
+}
+
+.service{
+float: left;
+}
+
+.collaborate{
+    float: left;
+} */
+
+
+.icons ul li{
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+.icons ul li:nth-child(1){
+   color: #3b5999;
+}
+.icons ul li:nth-child(2){
+   color: #55acee;
+}
+.icons ul li:nth-child(3){
+   color: #0077B5;
+}
+.icons ul li:nth-child(4){
+   color: #131418;
+}
+
+.shopping ul{
+    list-style-type: none;
+}
+
+.shopping ul li a{
+    text-decoration: none;
+}
+
+.service ul{
+    list-style-type: none;
+}
+
+.service ul li a{
+    text-decoration: none;
+}
+.collaborate ul{
+    list-style-type: none;
+}
+
+.collaborate ul li a{
+    text-decoration: none;
+}
+h3{
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+.footer-two{
+    margin-top: 5rem;
+    overflow: hidden;
+   background: red;
+}
+
+.left-footer{
+float: left;
+}
+
+.right-footer{
+float: right;
+}
+
+.left-footer a{
+    text-decoration: none;
+}
+
+.right-footer a{
+    text-decoration: none;
+}
+
+/* 
+
+MENU */
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}                  
+
+.menu-bar{
+    background-color: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.menu-bar ul li a:hover{
+   color: red;
+   transition: 0.3s;
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: blanchedalmond;
+    border-radius: 3px;
+}
+
+.sub-menu-1{
+    display: none;
+    border-radius: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+ border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+color: violet;
+}
+
+.sub-menu-2{
+    display: none;
+    border-radius: 10px;
+}
+.hover-me:hover  .sub-menu-2{
+display: block;
+position: absolute;
+margin-top: -50px;
+margin-left: 140px;
+background: rgb(0,100,0);
+}
