@@ -1,0 +1,149 @@
+@media screen and (max-width: 1200px){
+    
+    .header-one{
+        display: block;
+      
+    }
+ 
+    .left-header-one{
+        float: left;
+        text-align: center;
+    }
+    .right-header-one{
+     float: left;
+     text-align: center;
+    }
+
+    .logo{
+        margin-left: 50px;
+        }
+
+    .logo img{
+        width: 80px;
+        height: 40px;
+        margin-left: 30px;
+    }
+    .search{
+        margin-right: 40px;
+    }
+    .tbox{
+        width: 500px;
+        padding: 10px;
+    }
+    .btn{
+        width: 35px;
+      
+    }
+
+    .card ul li{
+        font-size: 22px;
+        margin-left: 0px;
+        }
+        
+        .menu-bar ul li{
+            width: 80px;
+            padding: 15px;
+        }
+
+
+
+}
+@media screen and (max-width: 900px){
+
+    .logo img{
+        width: 70px;
+        margin-left: 20px;
+    }
+    .search{  
+        margin-right: 25px;
+    }
+    .tbox{
+        width: 300px;
+        padding: 10px;
+    }
+
+    .card ul li{
+        font-size: 22px;
+        margin-left: 0px;
+        }
+        
+        .menu-bar ul li{
+            width: 60px;
+            padding: 15px;
+        }
+
+}
+@media screen and (max-width: 768px){
+.header-one{
+    font-size: 12px;
+}
+
+    .logo{
+       
+        margin-right: 20px;
+        }
+    .logo img{
+        width: 60px;
+        height: 35px;
+        margin-left: 20px;
+    }
+    .search{  
+        margin-right: 25px;
+    }
+    .tbox{
+       width: 250px;
+    }
+
+    .card ul li{
+        font-size: 18px;
+        margin-top: 10px;
+        }
+        
+        .menu-bar ul li{
+            width: 40px;
+        }
+        .menu-bar ul li a{
+         font-size: 12px;
+        }
+
+        .menu-bar ul li:hover .sub-menu-1{
+            margin-left: 0;
+        }
+
+        .menu-bar ul li:hover .sub-menu-1 ul li{
+            width: 80px;
+            padding: 4px;
+          }
+          .hover-me:hover  .sub-menu-2{
+            margin-left: 90px;
+            }
+            .footer-container{
+                grid-template-columns: auto auto;         
+            }
+           .footer h3{
+               font-size: 18px;
+           }
+
+}
+
+@media screen and (max-width:600px){
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+        width: 60px;
+        padding: 3px;
+      }
+      .hover-me:hover  .sub-menu-2{
+        margin-left: 70px;
+        }
+        .tbox{
+            width: 100%;
+         }
+     
+}
+
+
+@media screen and (max-width:450px){
+    .menu-bar ul li{
+        width: 25px;
+        padding:  13px;
+    }
+}
